@@ -52,8 +52,8 @@ The dataset used is the **Bank Marketing Data Set** from the UCI Machine Learnin
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/bank-marketing-pipeline.git](https://github.com/YOUR_USERNAME/bank-marketing-pipeline.git)
-    cd bank-marketing-pipeline
+    git clone https://github.com/omairhere/bank-marketing.git
+    cd bank-marketing
     ```
 
 2.  **Install dependencies:**
