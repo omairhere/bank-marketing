@@ -87,38 +87,23 @@ The following table summarizes the performance of the three models on the test s
 ### 1. Exploratory Data Analysis
 Understanding the target class balance and feature correlations.
 
-![Class Distribution](images/class_distribution.png)
+<img width="1268" height="490" alt="target_class_proportion" src="https://github.com/user-attachments/assets/529f9115-1eee-4866-9ef3-d0076c1a354e" />
 *Figure 1: Target Class Distribution showing dataset imbalance.*
 
-![Correlation Heatmap](images/correlation_heatmap.png)
+<img width="1109" height="1016" alt="feature_correlation_heatmap" src="https://github.com/user-attachments/assets/0cb70f77-8c75-43e7-b95f-72b1b781b75e" />
 *Figure 2: Correlation Heatmap of top features.*
 
 ### 2. Model Evaluation
 Comparing how well the models separate positive and negative classes.
 
-![ROC Curve](images/roc_curve_comparison.png)
+<img width="989" height="789" alt="roc_curve_comparison" src="https://github.com/user-attachments/assets/0682ebf6-9589-4a13-9f33-6a3fe39779d2" />
 *Figure 3: ROC Curve Comparison indicating LightGBM's superior AUC.*
 
-![Metric Comparison](images/metric_comparison.png)
+<img width="1389" height="690" alt="model_performance_comparison" src="https://github.com/user-attachments/assets/9540f459-4db6-4473-b109-ceb663c9bb41" />
 *Figure 4: Side-by-side metric comparison.*
 
 ### 3. Feature Importance
 What drives a customer to say "Yes"?
 
-![Feature Importance](images/feature_importance.png)
+<img width="1789" height="590" alt="all_models_feature_importance" src="https://github.com/user-attachments/assets/bda41351-f3fc-4079-a6d3-eb7126a7b8ff" />
 *Figure 5: Top features identified by Random Forest and LightGBM.*
-
----
-
-## 📂 Project Structure
-
-```text
-├── data/
-│   └── bank-additional.csv    # Source dataset
-├── images/                    # Saved plots and graphs
-│   ├── roc_curve.png
-│   ├── confusion_matrix.png
-│   └── ...
-├── main.py                    # Main execution script
-├── README.md                  # Project documentation
-└── requirements.txt           # Python dependencies
